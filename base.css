@@ -1,5 +1,6 @@
 html, body {
     margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 body {
     background-color: #f1f1f1;
@@ -11,7 +12,6 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
 }
 .main {
     display: flex;
@@ -19,13 +19,12 @@ body {
     width: 85%;
 }
 .menu {
-    width: 15%;
-    background-color: aqua;
+    width: 25%;
+    background-color: rgb(63, 171, 234);
     padding: 10px 20px 0px;
 }
 .header {
-    background-color: rgb(5, 108, 108);
-    min-height: 150px;
+    min-height: 140px;
 }
 .content {
     background-color: white;
@@ -33,6 +32,14 @@ body {
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
-    min-height: 150px;
+    background-color: rgb(63, 171, 234);
+    min-height: 50px;
+}
+.img-template{
+    width: 1000px;    
+    height: 230px;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
