@@ -20,7 +20,7 @@ body {
 }
 .menu {
     width: 25%;
-    background-color: rgb(63, 171, 234);
+    background-color: rgb(91, 185, 226);
     padding: 10px 20px 0px;
 }
 .header {
@@ -32,7 +32,7 @@ body {
     padding: 20px;
 }
 .footer {
-    background-color: rgb(63, 171, 234);
+    background-color: rgb(91, 185, 226);
     min-height: 50px;
 }
 .img-template{
@@ -42,4 +42,26 @@ body {
 a{
     text-decoration: none;
     color: black;
+}
+#contato{
+    display: inline-flex;
+}
+.mapa{
+    width: 50%;
+    background-color: black;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
+.formulario{
+    width: 50%;
+    height: 60%;
+    background-color: aqua;
+    margin: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
+}
+.mapa-rua{
+    width: 100%;
+}
+input{
+    margin-bottom: 10px;
 }
