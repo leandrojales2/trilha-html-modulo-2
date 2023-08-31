@@ -48,14 +48,12 @@ a{
 }
 .mapa{
     width: 50%;
-    background-color: black;
     padding: 10px 10px 10px 10px;
     margin: 10px 10px 10px 10px;
 }
 .formulario{
     width: 50%;
     height: 60%;
-    background-color: aqua;
     margin: 10px 10px 10px 10px;
     padding: 20px 20px 20px 20px;
 }
@@ -64,4 +62,40 @@ a{
 }
 input{
     margin-bottom: 10px;
+}
+.img-consultorio{
+    
+    height: 230px;
+}
+#template{
+    display: inline-flex;
+}
+#img-consulta{
+    padding: 10px;
+}
+#img-contato{
+    height: 400px;
+}
+input{
+    width: 72%;
+}
+#nome{
+    margin-left: 32px;
+}
+#email{
+    margin-left: 31px;
+}
+#assunto{
+    margin-left: 19px;
+}
+button{
+    color: #f1f1f1;
+    background-color: rgb(91, 185, 226);
+    border: none;
+    width: 20%;
+    height: 30px;
+}
+#cabecalho{
+    background-color: black;
+    color: #f1f1f1;
 }
